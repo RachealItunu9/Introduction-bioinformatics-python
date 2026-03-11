@@ -1,0 +1,10 @@
+dna_sequence = "ATGCGATACGCTTGCAGTCAGTACGATCG"
+dna_sequence = dna_sequence.upper ()
+count_A = dna_sequence.count ("A")
+count_T = dna_sequence.count ("T")
+count_C = dna_sequence.count ("C")
+count_U = dna_sequence.count ("U")
+print ("A:", count_A)
+print ("T:", count_T)
+print ("C:", count_C)
+print ("U:", count_U)
